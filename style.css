@@ -1,30 +1,33 @@
-/**/
-div {
-    margin: 5px;
-}
 
 .container{
     width: 950px;
     background-color: silver;
     margin: 0px auto;
-    padding: 5px;
+    padding:20px;
 }
+
 .top-nav {
     height: 150px;
     background-color: green;
     display: flex;
-    margin: 10px;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin:15px
 }
 .side-nav {
     height: 300px;
     width: 200px;
     background-color: blue;
+    display: flex;
+    
 }
 .main {
     height: 400px;
     width: 700px;
     background-color: red;
 }
+
 .sub-content {
     height: 200px;
     width: 210px;
@@ -32,17 +35,19 @@ div {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    margin-right: 10px;
-
+    margin: 5px 5px 5px 5px;
 }
 #advertisement {
     height: 120px;
     width: 660px;
     background-color: purple;
-    display:flex;
-    flex-direction: left;
-    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
 }
 .row {
     display: flex;
+    flex-direction: left;
+    justify-content: space-between;
+    margin: 15px;
 }
